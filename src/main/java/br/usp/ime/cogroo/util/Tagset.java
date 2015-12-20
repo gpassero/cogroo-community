@@ -42,6 +42,7 @@ public class Tagset {
 
     _feat.put("M", "masculino");
     _feat.put("F", "feminino");
+    _feat.put("M/F", "masculino/feminino");
 
     _feat.put("S", "singular");
     _feat.put("P", "plural");
@@ -56,7 +57,10 @@ public class Tagset {
     _feat.put("3", "terceira pessoa");
     
     _feat.put("1S", "primeira pessoa singular");
+    _feat.put("2S", "segunda pessoa singular");
     _feat.put("3S", "terceira pessoa singular");
+    _feat.put("1P", "primeira pessoa plural");
+    _feat.put("2P", "segunda pessoa plural");
     _feat.put("3P", "terceira pessoa plural");
 
     _feat.put("PR", "presente");
